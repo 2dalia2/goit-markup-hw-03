@@ -49,6 +49,7 @@ img {
 }
 .header.container {
   display: flex;
+  align-items: center;
 }
 .nav-header {
   display: flex;
@@ -118,6 +119,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--darkColor);
+  padding: 24px 0;
 }
 .page.link {
   text-decoration: none;
@@ -136,6 +138,7 @@ img {
   padding-bottom: 188px;
   justify-content: center;
 }
+
 .title-header {
   font-size: 56px;
   line-height: 1.07;
@@ -163,6 +166,8 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  display: block;
+  margin: auto;
 }
 .title-button:hover,
 .title-button:focus {
@@ -178,7 +183,6 @@ img {
 .second-section-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 .info-list {
   width: 264px;
@@ -190,6 +194,7 @@ img {
   text-align: center;
   display: flex;
   margin-bottom: 8px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .list-p {
   font-size: 16px;
@@ -242,11 +247,11 @@ img {
 .team-li {
   background-color: var(--backgroungColor);
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
 }
 .team-info {
   padding: 32px 16px;
-  /* border-radius: 0px 0px 4px 4px; */
+  border-radius: 0px 0px 4px 4px;
 }
 .team-info > h3 {
   text-align: center;
