@@ -59,15 +59,11 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-contacts {
   font-style: normal;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   /* margin-left: 332px; */
 }
 
@@ -119,7 +115,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--darkColor);
-  padding: 24px 0;
 }
 .page.link {
   text-decoration: none;
@@ -134,8 +129,6 @@ img {
 .title {
   background-color: var(--darkColor);
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
   justify-content: center;
 }
 
@@ -175,17 +168,14 @@ img {
 }
 
 .info {
-  display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
-  gap: 24px;
 }
 .second-section-list {
   display: flex;
   gap: 24px;
 }
 .info-list {
-  width: 264px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -247,7 +237,6 @@ img {
 .team-li {
   background-color: var(--backgroungColor);
   width: calc((100% - 72px) / 4);
-  /* border-radius: 0px 0px 4px 4px; */
 }
 .team-info {
   padding: 32px 16px;
