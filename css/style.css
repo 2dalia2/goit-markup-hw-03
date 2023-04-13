@@ -57,7 +57,6 @@ img {
   align-items: center;
 }
 .header-list {
-  display: flex;
   gap: 40px;
 }
 
@@ -181,10 +180,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--darkColor);
-  text-align: center;
-  display: flex;
   margin-bottom: 8px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 .list-p {
   font-size: 16px;
@@ -205,7 +201,6 @@ img {
   margin-bottom: 72px;
 }
 .offer-list {
-  display: flex;
   gap: 24px;
   justify-content: center;
 }
@@ -231,7 +226,6 @@ img {
   margin-bottom: 72px;
 }
 .fourth-section-list {
-  display: flex;
   gap: 24px;
 }
 .team-li {
