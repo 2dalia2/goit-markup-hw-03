@@ -68,6 +68,7 @@ img {
 }
 
 .header-contacts {
+  display: flex;
   font-style: normal;
   margin: 24px 0;
 }
