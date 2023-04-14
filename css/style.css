@@ -70,7 +70,6 @@ img {
 .header-contacts {
   display: flex;
   font-style: normal;
-  margin: 24px 0;
 }
 
 .header-contact {
@@ -173,10 +172,8 @@ img {
 }
 
 .info {
-  display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
-  gap: 24px;
 }
 .second-section-list {
   display: flex;
@@ -206,8 +203,6 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
   color: var(--darkColor);
   margin-bottom: 72px;
 }
